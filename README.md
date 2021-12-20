@@ -1,7 +1,4 @@
-![Image of eHuddle](/Images/eHuddle_apps_255x115.png)
-
-
-[![Board Status](https://dev.azure.com/teamruegg/f4eab141-9dad-477f-953c-01fe584244ee/53345007-69cb-40f6-869e-898027ae1731/_apis/work/boardbadge/97f6bcb1-29d1-4b38-949b-689656048596?columnOptions=1)](https://dev.azure.com/teamruegg/f4eab141-9dad-477f-953c-01fe584244ee/_boards/board/t/53345007-69cb-40f6-869e-898027ae1731/Microsoft.RequirementCategory/) [![Build Status](https://dev.azure.com/teamruegg/eHuddle/_apis/build/status/eHuddle-CI-Build%20Managed%20Solution?branchName=master)](https://dev.azure.com/teamruegg/eHuddle/_build/latest?definitionId=12&branchName=master)
+![Image of eHuddle](/images/eHuddle_apps_255x115.png)
 
 #eHuddle
 eHuddle, an effective way to manage shared work across teams within an organization.
@@ -31,9 +28,8 @@ Team huddle review work in progress | Update work in progress | Confirm current 
 
 
 # Application
-------------
 
-##Prerequisites
+## Prerequisites
 The eHuddle app is build on top of the Office 365 Teams, Office 365 Groups and the Dynamics 365 Customer Services and Resource Scheduling apps. And therefor the following apps needs to be installed and configured before deploying the eHuddle app:
 * Office 365 Groups
 * Office 365 Teams
@@ -41,7 +37,6 @@ The eHuddle app is build on top of the Office 365 Teams, Office 365 Groups and t
 * Dynamics 365 Resource Scheduling
 
 # Development
--------------
 
 ## Prerequisite
 * Visual Studio
