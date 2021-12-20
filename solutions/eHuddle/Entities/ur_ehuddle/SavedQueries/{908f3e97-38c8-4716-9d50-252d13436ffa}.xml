@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{908f3e97-38c8-4716-9d50-252d13436ffa}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_ehuddleid">
+          <cell name="ur_name" width="300" />
+          <cell name="ownerid" width="100" />
+          <cell name="ur_membersassigned" width="100" />
+          <cell name="ur_requestapproved" width="100" />
+          <cell name="ur_environmentprovisioned" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_ehuddle">
+          <attribute name="ur_ehuddleid" />
+          <attribute name="ur_name" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="ur_membersassigned" />
+          <attribute name="ur_requestapproved" />
+          <attribute name="ur_environmentprovisioned" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active eHuddles" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

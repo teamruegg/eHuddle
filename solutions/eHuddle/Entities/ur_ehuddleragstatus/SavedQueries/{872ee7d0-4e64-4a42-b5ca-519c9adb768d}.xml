@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{872ee7d0-4e64-4a42-b5ca-519c9adb768d}</savedqueryid>
+    <layoutxml>
+      <grid name="ur_ehuddleragstatuses" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="ur_ehuddleragstatus" id="ur_ehuddleragstatusid">
+          <cell name="ur_name" width="200" />
+          <cell name="ur_service" width="300" />
+          <cell name="ur_ragdate" width="100" />
+          <cell name="ur_ragstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_ehuddleragstatus">
+          <attribute name="ur_ehuddleragstatusid" />
+          <attribute name="ur_name" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_ragdate" />
+          <attribute name="ur_ragstatus" />
+          <attribute name="ur_service" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="eHuddle RAG Status Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

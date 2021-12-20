@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>serviceappointment</EntitySource>
+    <EntityTarget>msdyn_resourcerequirement</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>actualdurationminutes</AttributeSource>
+        <AttributeTarget>msdyn_duration</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>actualend</AttributeSource>
+        <AttributeTarget>msdyn_todate</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>actualstart</AttributeSource>
+        <AttributeTarget>msdyn_fromdate</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

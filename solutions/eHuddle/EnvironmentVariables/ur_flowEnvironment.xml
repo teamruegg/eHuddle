@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definition IntroducedVersion="1.0.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SchemaName>ur_flowEnvironment</SchemaName>
+  <IsRequired>0</IsRequired>
+  <Type>100000000</Type>
+  <DefaultValue>https://emea.flow.microsoft.com</DefaultValue>
+  <DisplayName>
+    <LocalizedNames>
+      <LocalizedName description="Flow Environment" languagecode="1033" />
+    </LocalizedNames>
+  </DisplayName>
+  <Description>
+    <LocalizedNames>
+      <LocalizedName description="Power Automate environment (Example: https://emea.flow.microsoft.com for Europe)" languagecode="1033" />
+    </LocalizedNames>
+  </Description>
+</Definition>

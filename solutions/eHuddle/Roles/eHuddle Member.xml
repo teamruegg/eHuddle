@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{d4fd10ce-a06f-ea11-a812-000d3a24ce33}" name="eHuddle Member" isinherited="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendActivity" level="Basic" />
+    <RolePrivilege name="prvAppendNote" level="Basic" />
+    <RolePrivilege name="prvAppendToActivity" level="Basic" />
+    <RolePrivilege name="prvAppendToNote" level="Basic" />
+    <RolePrivilege name="prvAssignActivity" level="Basic" />
+    <RolePrivilege name="prvAssignNote" level="Basic" />
+    <RolePrivilege name="prvCreateActivity" level="Basic" />
+    <RolePrivilege name="prvCreateNote" level="Basic" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeleteActivity" level="Basic" />
+    <RolePrivilege name="prvDeleteNote" level="Basic" />
+    <RolePrivilege name="prvReadActivity" level="Global" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Global" />
+    <RolePrivilege name="prvReadNote" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadTeam" level="Global" />
+    <RolePrivilege name="prvReadur_ehuddle" level="Local" />
+    <RolePrivilege name="prvReadur_ehuddlemood" level="Basic" />
+    <RolePrivilege name="prvReadUser" level="Global" />
+    <RolePrivilege name="prvShareActivity" level="Basic" />
+    <RolePrivilege name="prvShareNote" level="Basic" />
+    <RolePrivilege name="prvWriteActivity" level="Basic" />
+    <RolePrivilege name="prvWriteNote" level="Basic" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

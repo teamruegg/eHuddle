@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ur_ehuddle" />
+  <EntityRelationship Name="business_unit_ur_ehuddlemood" />
+  <EntityRelationship Name="business_unit_ur_ehuddleragstatus" />
+  <EntityRelationship Name="lk_ur_ehuddle_createdby" />
+  <EntityRelationship Name="lk_ur_ehuddle_modifiedby" />
+  <EntityRelationship Name="lk_ur_ehuddlemood_createdby" />
+  <EntityRelationship Name="lk_ur_ehuddlemood_modifiedby" />
+  <EntityRelationship Name="lk_ur_ehuddleragstatus_createdby" />
+  <EntityRelationship Name="lk_ur_ehuddleragstatus_modifiedby" />
+  <EntityRelationship Name="lk_ur_servicecategory_createdby" />
+  <EntityRelationship Name="lk_ur_servicecategory_modifiedby" />
+  <EntityRelationship Name="msdyn_requirementgroup_service" />
+  <EntityRelationship Name="organization_ur_servicecategory" />
+  <EntityRelationship Name="owner_ur_ehuddle" />
+  <EntityRelationship Name="owner_ur_ehuddlemood" />
+  <EntityRelationship Name="owner_ur_ehuddleragstatus" />
+  <EntityRelationship Name="team_ur_ehuddle" />
+  <EntityRelationship Name="team_ur_ehuddlemood" />
+  <EntityRelationship Name="team_ur_ehuddleragstatus" />
+  <EntityRelationship Name="ur_ehuddle_SystemUser" />
+  <EntityRelationship Name="ur_ehuddlemood_ehuddle" />
+  <EntityRelationship Name="ur_ehuddleragstatus_service" />
+  <EntityRelationship Name="ur_service_ur_ehuddle" />
+  <EntityRelationship Name="ur_service_ur_servicecategory" />
+  <EntityRelationship Name="user_ur_ehuddle" />
+  <EntityRelationship Name="user_ur_ehuddlemood" />
+  <EntityRelationship Name="user_ur_ehuddleragstatus" />
+</EntityRelationships>

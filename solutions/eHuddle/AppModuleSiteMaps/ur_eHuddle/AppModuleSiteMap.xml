@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ur_eHuddle</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="ur_ops_area" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Operation" />
+      </Titles>
+      <Group Id="ur_ops_ehuddle_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="eHuddle" />
+        </Titles>
+        <SubArea Id="ur_ops_dashboard_subarea" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="42279074-5272-ea11-a811-000d3a24ce33" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_ops_ehuddle_subarea" VectorIcon="/WebResources/ur_/images/board_icon.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_ehuddle" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_ops_resource_requirement_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msdyn_resourcerequirement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_ops_service_activity_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="serviceappointment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_ops_board_subarea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="/WebResources/msdyn_/fps/Icons/Sitemap/ScheduleBoard.svg" Icon="/WebResources/msdyn_/fps/Icons/Sitemap/ScheduleBoard.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Schedule Board" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_ops_bookings_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="bookableresourcebooking" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Bookings" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="ur_admin_area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Admin" />
+      </Titles>
+      <Group Id="ur_admin_ehuddle_admin_group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="eHuddle Admin" />
+        </Titles>
+        <SubArea Id="ur_admin_dashboard_subarea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="/WebResources/ur_/images/vertical_barchart_icon.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="42279074-5272-ea11-a811-000d3a24ce33" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dashboard" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_admin_ehuddle_subarea" VectorIcon="/WebResources/ur_/images/board_icon.svg" IntroducedVersion="7.0.0.0" Entity="ur_ehuddle" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="eHuddle" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_admin_services_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="service" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_admin_resouce_requirement__subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msdyn_resourcerequirement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_admin_resouce_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="bookableresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Resource" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_admin_skills_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="bookableresourcecharacteristic" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Skills" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_admin_ehuddle_history_data_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Data History" />
+        </Titles>
+        <SubArea Id="ur_admin_rag_subarea" Entity="ur_ehuddleragstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="RAG History" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_admin_mood_subarea" VectorIcon="/WebResources/ur_/images/gauge_03_icon.svg" Entity="ur_ehuddlemood" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Mood History" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_admin_ehuddle_master_data_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Master Data" />
+        </Titles>
+        <SubArea Id="ur_admin_services_category_subarea" Entity="ur_servicecategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="eHuddle" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

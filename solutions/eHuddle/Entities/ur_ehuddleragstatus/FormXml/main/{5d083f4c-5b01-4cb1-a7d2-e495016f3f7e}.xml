@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5d083f4c-5b01-4cb1-a7d2-e495016f3f7e}</formid>
+    <IntroducedVersion>0.0.0.6</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{90755cd4-c2cc-4b0f-a302-b8a566c01975}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{331e6d98-cb17-434f-b92b-f69d3359ac2d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{887ee38c-bba6-4c3a-b094-e524b570192e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a7de8c0-fe13-4f72-a103-db5701a70b02}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="RAG Date" languagecode="1033" />
+                        </labels>
+                        <control id="ur_ragdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_ragdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{613cd82f-614b-4ea8-97f5-0066f6b00527}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="RAG Status" languagecode="1033" />
+                        </labels>
+                        <control id="ur_ragstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_ragstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d5e0a48-c295-42f1-946e-5a1997c26a53}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                        </labels>
+                        <control id="ur_service" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_service" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f839963-fb4f-4e67-b785-8aac95b4f4e1}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="RAG Comment" languagecode="1033" />
+                        </labels>
+                        <control id="ur_ragcomment" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ur_ragcomment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{f763f593-3890-4f7d-a0f1-9c6aa86a9b8f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5a7216d9-bc4e-4579-a964-82870c2537f2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b265cfbc-faf5-4f8e-b259-82f69e2b0a5e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9d9e1c09-f6c7-4ad2-a174-66091a258d3d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0da466f9-4669-4a6f-8038-0d5eee563486}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{85958f34-45ba-4d1f-84e4-e0e5b7535739}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b6274203-5d37-48db-996d-531d92901e7d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{64a85d7f-8b66-42ff-bb4c-af87e4f4e786}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a168a1f2-439e-4172-87e4-892cb81b5062}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5cac0256-a671-ea11-a812-000d3a24ce33}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_ehuddleid">
+          <cell name="ur_name" width="200" />
+          <cell name="ownerid" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="ur_requestapproved" width="75" />
+          <cell name="ur_environmentprovisioned" width="75" />
+          <cell name="ur_membersassigned" width="75" />
+          <cell name="ur_office365groupname" width="200" />
+          <cell name="ur_office365groupemail" width="200" />
+          <cell name="ur_teamsname" width="200" />
+          <cell name="ur_teamsurl" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_ehuddle">
+          <attribute name="ur_name" />
+          <attribute name="ur_ehuddleid" />
+          <attribute name="ur_environmentprovisioned" />
+          <attribute name="ur_membersassigned" />
+          <attribute name="ur_requestapproved" />
+          <attribute name="ur_office365groupname" />
+          <attribute name="ur_office365groupemail" />
+          <attribute name="ur_teamsname" />
+          <attribute name="ur_teamsurl" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active eHuddles environment info" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows active environment info" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

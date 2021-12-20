@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fc63ceeb-af84-ea11-a811-000d3abad3f8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="bookableresourcebookingid">
+          <cell name="resource" width="150" />
+          <cell name="starttime" width="150" />
+          <cell name="endtime" width="150" />
+          <cell name="duration" width="100" />
+          <cell name="msdyn_effort" width="100" />
+          <cell name="bookingstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="bookableresourcebooking">
+          <attribute name="bookableresourcebookingid" />
+          <attribute name="resource" />
+          <attribute name="duration" />
+          <attribute name="starttime" />
+          <attribute name="endtime" />
+          <attribute name="bookingstatus" />
+          <filter type="and">
+            <condition attribute="bookingstatus" operator="not-in">
+              <value uiname="Completed" uitype="bookingstatus">{91c79750-acac-4da1-9e69-447b4bb2dfc9}</value>
+              <value uiname="Canceled" uitype="bookingstatus">{30c24ef5-bddf-405e-b9c5-0c5f403484cc}</value>
+              <value uiname="Canceled" uitype="bookingstatus">{0adbf4e6-86cc-4db0-9dbb-51b7d1ed4020}</value>
+              <value uiname="No Show" uitype="bookingstatus">{f85ea467-1192-46d3-a300-7dd326127e50}</value>
+            </condition>
+          </filter>
+          <order attribute="starttime" descending="false" />
+          <order attribute="resource" descending="false" />
+          <attribute name="msdyn_effort" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Scheduled Booking" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{da0fc96b-a06f-ea11-a812-000d3a24ce33}" name="eHuddle Admin" isinherited="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendActivity" level="Global" />
+    <RolePrivilege name="prvAppendImport" level="Global" />
+    <RolePrivilege name="prvAppendNote" level="Global" />
+    <RolePrivilege name="prvAppendToActivity" level="Global" />
+    <RolePrivilege name="prvAppendToImport" level="Global" />
+    <RolePrivilege name="prvAppendToNote" level="Global" />
+    <RolePrivilege name="prvAppendTour_ehuddle" level="Global" />
+    <RolePrivilege name="prvAppendTour_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvAppendur_ehuddle" level="Global" />
+    <RolePrivilege name="prvAppendur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvAssignActivity" level="Global" />
+    <RolePrivilege name="prvAssignImport" level="Global" />
+    <RolePrivilege name="prvAssignManager" level="Global" />
+    <RolePrivilege name="prvAssignNote" level="Global" />
+    <RolePrivilege name="prvAssignPosition" level="Global" />
+    <RolePrivilege name="prvAssignur_ehuddle" level="Global" />
+    <RolePrivilege name="prvAssignur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvCreateActivity" level="Global" />
+    <RolePrivilege name="prvCreateImport" level="Global" />
+    <RolePrivilege name="prvCreateNote" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreateur_ehuddle" level="Global" />
+    <RolePrivilege name="prvCreateur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvDeleteActivity" level="Global" />
+    <RolePrivilege name="prvDeleteImport" level="Global" />
+    <RolePrivilege name="prvDeleteNote" level="Global" />
+    <RolePrivilege name="prvDeleteur_ehuddle" level="Global" />
+    <RolePrivilege name="prvDeleteur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvDocumentGeneration" level="Global" />
+    <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvReadActivity" level="Global" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadImport" level="Global" />
+    <RolePrivilege name="prvReadNote" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadur_ehuddle" level="Global" />
+    <RolePrivilege name="prvReadur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvShareActivity" level="Global" />
+    <RolePrivilege name="prvShareImport" level="Global" />
+    <RolePrivilege name="prvShareNote" level="Global" />
+    <RolePrivilege name="prvShareur_ehuddle" level="Global" />
+    <RolePrivilege name="prvShareur_ehuddlemood" level="Global" />
+    <RolePrivilege name="prvWriteActivity" level="Global" />
+    <RolePrivilege name="prvWriteBusinessClosureCalendar" level="Global" />
+    <RolePrivilege name="prvWriteImport" level="Global" />
+    <RolePrivilege name="prvWriteNote" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWriteur_ehuddle" level="Global" />
+    <RolePrivilege name="prvWriteur_ehuddlemood" level="Global" />
+  </RolePrivileges>
+</Role>

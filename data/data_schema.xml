@@ -1,0 +1,33 @@
+<entities >
+  <entity name="ur_ehuddle" displayname="eHuddle" etc="10117" primaryidfield="ur_ehuddleid" primarynamefield="ur_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="ur_description" type="string" customfield="true" />
+      <field displayname="eHuddle" name="ur_ehuddleid" type="guid" primaryKey="true" />
+      <field displayname="Actual Negativ Mood" name="ur_actualnegativmood" type="number" customfield="true" />
+      <field displayname="Actual Neutral Mood" name="ur_actualneutralmood" type="number" customfield="true" />
+      <field displayname="Actual Positive Mood" name="ur_actualpositivemood" type="number" customfield="true" />
+      <field displayname="Environment provisioned" name="ur_environmentprovisioned" type="bool" customfield="true" />
+      <field displayname="Members assigned" name="ur_membersassigned" type="bool" customfield="true" />
+      <field displayname="Name" name="ur_name" type="string" customfield="true" />
+      <field displayname="Office 365 Group Email" name="ur_office365groupemail" type="string" customfield="true" />
+      <field displayname="Office 365 Group Name" name="ur_office365groupname" type="string" customfield="true" />
+      <field displayname="Request approved" name="ur_requestapproved" type="bool" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Teams Name" name="ur_teamsname" type="string" customfield="true" />
+      <field displayname="Teams URL" name="ur_teamsurl" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="ur_ehuddlemood" displayname="eHuddle Mood" etc="10118" primaryidfield="ur_ehuddlemoodid" primarynamefield="ur_name" disableplugins="false">
+    <fields>
+      <field displayname="eHuddle Mood" name="ur_ehuddlemoodid" type="guid" primaryKey="true" />
+      <field displayname="eHuddle" name="ur_ehuddle" type="entityreference" lookupType="ur_ehuddle" customfield="true" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Name" name="ur_name" type="string" customfield="true" />
+      <field displayname="Mood Rating" name="ur_moodrating" type="optionsetvalue" customfield="true" />
+      <field displayname="Mood Date" name="ur_mooddate" type="datetime" customfield="true" />
+      <field displayname="Mood Amount" name="ur_moodamount" type="number" customfield="true" />
+    </fields>
+  </entity>
+</entities>

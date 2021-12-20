@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{7f6b2d3a-5e76-ea11-a811-000d3a24ce33}</WebResourceId>
+  <Name>ur_/images/board_icon.svg</Name>
+  <DisplayName>ur_/images/board_icon.svg</DisplayName>
+  <Description>Board Icon</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imagesboard_iconsvg7F6B2D3A-5E76-EA11-A811-000D3A24CE33</FileName>
+</WebResource>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ur_eHuddle</UniqueName>
+  <IntroducedVersion>0.0.0.1</IntroducedVersion>
+  <WebResourceId>1e9401fe-5e76-ea11-a811-000d3a24ce33</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ur_eHuddle" />
+    <AppModuleComponent type="60" id="{42279074-5272-ea11-a811-000d3a24ce33}" />
+    <AppModuleComponent type="1" schemaName="bookableresource" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebooking" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecategory" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecharacteristic" />
+    <AppModuleComponent type="1" schemaName="ur_ehuddle" />
+    <AppModuleComponent type="1" schemaName="ur_ehuddlemood" />
+    <AppModuleComponent type="1" schemaName="ur_ehuddleragstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcerequirement" />
+    <AppModuleComponent type="1" schemaName="service" />
+    <AppModuleComponent type="1" schemaName="serviceappointment" />
+    <AppModuleComponent type="1" schemaName="ur_servicecategory" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="eHuddle" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="eHuddle Operation planning and management" languagecode="1033" />
+  </Descriptions>
+</AppModule>

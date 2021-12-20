@@ -1,0 +1,166 @@
+
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2020-04-05T10:27:58.7292818Z">
+  <entity name="ur_ehuddle" displayname="eHuddle">
+    <records>
+      <record id="0a604834-1d77-ea11-a811-000d3ab9b226">
+        <field name="ur_description" value="Contoso Demo Huddle sample" />
+        <field name="ur_ehuddleid" value="0a604834-1d77-ea11-a811-000d3ab9b226" />
+        <field name="ur_actualnegativmood" value="2" />
+        <field name="ur_actualneutralmood" value="1" />
+        <field name="ur_actualpositivemood" value="3" />
+        <field name="ur_environmentprovisioned" value="True" />
+        <field name="ur_membersassigned" value="True" />
+        <field name="ur_name" value="eHuddle Contoso Demo" />
+        <field name="ur_office365groupemail" value="eHuddleContosoDemo@teamruegg.net" />
+        <field name="ur_office365groupname" value="eHuddleContosoDemo" />
+        <field name="ur_requestapproved" value="True" />
+        <field name="statecode" value="0" />
+        <field name="statuscode" value="315810000" />
+        <field name="ur_teamsname" value="eHuddleContosoDemo" />
+      </record>
+      <record id="f4734e37-1d77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_description" value="Payment Investigation eHuddle Demo sample" />
+        <field name="ur_ehuddleid" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_actualnegativmood" value="1" />
+        <field name="ur_actualneutralmood" value="4" />
+        <field name="ur_actualpositivemood" value="4" />
+        <field name="ur_environmentprovisioned" value="False" />
+        <field name="ur_membersassigned" value="True" />
+        <field name="ur_name" value="eHuddle Payment Investigation" />
+        <field name="ur_office365groupemail" value="eHuddlePaymentInvestigation@teamruegg.net" />
+        <field name="ur_office365groupname" value="eHuddlePaymentInvestigation" />
+        <field name="ur_requestapproved" value="True" />
+        <field name="statecode" value="0" />
+        <field name="statuscode" value="315810000" />
+        <field name="ur_teamsname" value="eHuddlePaymentInvestigation" />
+        <field name="ur_teamsurl" value="https://teams.microsoft.com/l/team/19%3a5a05443014b84414a26c07bc5769df21%40thread.tacv2/conversations?groupId=5db3cc34-5f60-4a4b-9df1-af1f37184bd8&amp;amp;tenantId=7ee93979-734e-4f8a-8cd7-c5af779c78a9" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="ur_ehuddlemood" displayname="eHuddle Mood">
+    <records>
+      <record id="643b0d9c-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="643b0d9c-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Neutral -  2020-04-05" />
+        <field name="ur_moodrating" value="315810001" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="1" />
+      </record>
+      <record id="653b0d9c-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="653b0d9c-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Negativ - 2020-04-05" />
+        <field name="ur_moodrating" value="315810002" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="1" />
+      </record>
+      <record id="663b0d9c-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="663b0d9c-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Neutral -  2020-04-05" />
+        <field name="ur_moodrating" value="315810001" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="4" />
+      </record>
+      <record id="673b0d9c-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="673b0d9c-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Positive - 2020-04-05" />
+        <field name="ur_moodrating" value="315810000" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="4" />
+      </record>
+      <record id="237a72a6-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="237a72a6-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Negativ - 2020-04-05" />
+        <field name="ur_moodrating" value="315810002" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="2" />
+      </record>
+      <record id="247a72a6-1f77-ea11-a811-000d3ab9b226">
+        <field name="ur_ehuddlemoodid" value="247a72a6-1f77-ea11-a811-000d3ab9b226" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Neutral -  2020-04-05" />
+        <field name="ur_moodrating" value="315810001" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="1" />
+      </record>
+      <record id="10f3079c-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="10f3079c-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Negativ - 2020-04-05" />
+        <field name="ur_moodrating" value="315810002" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="2" />
+      </record>
+      <record id="1af3079c-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="1af3079c-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Positive - 2020-04-05" />
+        <field name="ur_moodrating" value="315810000" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="3" />
+      </record>
+      <record id="d2c309a2-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="d2c309a2-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="0a604834-1d77-ea11-a811-000d3ab9b226" lookupentity="ur_ehuddle" lookupentityname="eHuddle Contoso Demo" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Contoso Demo - Positive - 2020-04-05" />
+        <field name="ur_moodrating" value="315810000" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="3" />
+      </record>
+      <record id="d4c309a2-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="d4c309a2-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Negativ - 2020-04-05" />
+        <field name="ur_moodrating" value="315810002" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="1" />
+      </record>
+      <record id="242e28a8-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="242e28a8-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Neutral -  2020-04-05" />
+        <field name="ur_moodrating" value="315810001" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="4" />
+      </record>
+      <record id="2a2e28a8-1f77-ea11-a811-000d3ab9bc3d">
+        <field name="ur_ehuddlemoodid" value="2a2e28a8-1f77-ea11-a811-000d3ab9bc3d" />
+        <field name="ur_ehuddle" value="f4734e37-1d77-ea11-a811-000d3ab9bc3d" lookupentity="ur_ehuddle" lookupentityname="eHuddle Payment Investigation" />
+        <field name="statuscode" value="1" />
+        <field name="statecode" value="0" />
+        <field name="ur_name" value="eHuddle Payment Investigation - Positive - 2020-04-05" />
+        <field name="ur_moodrating" value="315810000" />
+        <field name="ur_mooddate" value="2020-04-05T00:00:00.0000000" />
+        <field name="ur_moodamount" value="4" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

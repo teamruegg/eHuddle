@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{fa385993-a06f-ea11-a812-000d3a24ce33}" name="eHuddle Lead" isinherited="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendActivity" level="Local" />
+    <RolePrivilege name="prvAppendNote" level="Local" />
+    <RolePrivilege name="prvAppendToActivity" level="Local" />
+    <RolePrivilege name="prvAppendToNote" level="Local" />
+    <RolePrivilege name="prvAppendTour_ehuddle" level="Local" />
+    <RolePrivilege name="prvAppendTour_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvAppendur_ehuddle" level="Local" />
+    <RolePrivilege name="prvAppendur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvAssignActivity" level="Local" />
+    <RolePrivilege name="prvAssignNote" level="Local" />
+    <RolePrivilege name="prvAssignur_ehuddle" level="Local" />
+    <RolePrivilege name="prvAssignur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvCreateActivity" level="Local" />
+    <RolePrivilege name="prvCreateNote" level="Local" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreateur_ehuddle" level="Local" />
+    <RolePrivilege name="prvCreateur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvDeleteActivity" level="Local" />
+    <RolePrivilege name="prvDeleteNote" level="Local" />
+    <RolePrivilege name="prvDeleteur_ehuddle" level="Local" />
+    <RolePrivilege name="prvDeleteur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvDocumentGeneration" level="Global" />
+    <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvReadActivity" level="Local" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Global" />
+    <RolePrivilege name="prvReadNote" level="Local" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadTeam" level="Global" />
+    <RolePrivilege name="prvReadur_ehuddle" level="Local" />
+    <RolePrivilege name="prvReadur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvReadUser" level="Global" />
+    <RolePrivilege name="prvShareActivity" level="Local" />
+    <RolePrivilege name="prvShareNote" level="Local" />
+    <RolePrivilege name="prvShareur_ehuddle" level="Local" />
+    <RolePrivilege name="prvShareur_ehuddlemood" level="Local" />
+    <RolePrivilege name="prvWriteActivity" level="Local" />
+    <RolePrivilege name="prvWriteNote" level="Local" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWriteur_ehuddle" level="Local" />
+    <RolePrivilege name="prvWriteur_ehuddlemood" level="Local" />
+  </RolePrivileges>
+</Role>

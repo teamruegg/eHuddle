@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ec0bf672-5177-ea11-a811-000d3ad7a49b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="serviceid">
+          <cell name="name" width="234" />
+          <cell name="ur_ehuddle" width="173" />
+          <cell name="ur_servicecategory" width="100" />
+          <cell name="ur_worktypecategory" width="100" />
+          <cell name="ur_serviceragstatus" width="100" />
+          <cell name="ur_avgtimetoprocess" width="100" />
+          <cell name="duration" width="100" />
+          <cell name="showresources" width="100" />
+          <cell name="isvisible" width="100" />
+          <cell name="resourcespecid" width="100" />
+          <cell name="msdyn_requirementgroupid" width="100" />
+          <cell name="initialstatuscode" width="100" />
+          <cell name="msdyn_SchedulingEngine" width="100" />
+          <cell name="description" width="300" />
+          <cell name="isschedulable" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="service">
+          <attribute name="name" />
+          <attribute name="serviceid" />
+          <attribute name="ur_ehuddle" />
+          <attribute name="description" />
+          <attribute name="resourcespecid" />
+          <attribute name="msdyn_requirementgroupid" />
+          <attribute name="msdyn_SchedulingEngine" />
+          <attribute name="showresources" />
+          <attribute name="isschedulable" />
+          <attribute name="isvisible" />
+          <attribute name="initialstatuscode" />
+          <attribute name="duration" />
+          <attribute name="ur_avgtimetoprocess" />
+          <attribute name="ur_worktypecategory" />
+          <attribute name="ur_serviceragstatus" />
+          <attribute name="ur_servicecategory" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="eHuddle Services" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
